@@ -1,0 +1,58 @@
+.feed{
+    flex: 0.5;
+    margin:0 20px;
+    width:100%;
+    margin-top: 16px;
+}
+.feed__inputContainer{
+   
+    display:flex;
+    background-color:white;
+    padding:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.feed__input {
+    width:97%;
+   border:1px solid lightgray;
+   border-radius: 30px;
+   display:flex;
+   padding:10px;
+   color:gray;
+   padding-left: 15px;
+}
+.feed__input >form {
+    display:flex;
+    width:100%;
+}
+.feed__input >form > input {
+    border:none;
+    width:100%;
+    margin-left: 10px;
+    outline:none;
+    font-weight: 600;
+}
+.feed__input >form > button{
+    display:none;
+}
+.feed__inputOptions{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.removebtn{
+    position:absolute;
+    z-index: 16;
+    right:15px;
+    top:6px;
+    font-size:20px;
+}
+.removebtn:hover{
+    cursor:pointer;
+}
+.posts1{
+    position: relative;
+    z-index: 15;
+}
